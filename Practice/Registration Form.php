@@ -15,10 +15,20 @@
         body {
             background-color: green;
         }
+        body:hover{
+            background-color: cyan;
+            color: white;
+            
+        }
 
         form {
             background-color: cyan;
             padding: 10px;
+
+        }
+        form:hover{
+            background-color: green;
+            color: white;
         }
 
         h2 {
@@ -33,6 +43,9 @@
 
         #but {
             background-color: red;
+        }
+        #but:hover{
+            background-color: orange;
         }
     </style>
 </head>
