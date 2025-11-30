@@ -1,14 +1,34 @@
 
-
 <!-- WAP to input your birthday & calculate passed days till today.  -->
 
-<?php
-$dob = "2005-11-15";  // example birthday (YYYY-MM-DD)
+<!-- 
+ -->
 
-$birthDate = new DateTime($dob);
-$today = new DateTime();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        DOB: <input type="date" name="dob" required>
+        <input type="submit">
+    </form>
+</body>
 
-$diff = $birthDate->diff($today);
+<?php 
+if($_SERVER['REQUEST_METHOD'] == "POST"){
+    
+    $birthday = $_POST['dob'];          
+    $birthDate = new DateTime($birthday);
+    $today = new DateTime();
+    
+    $aliveDay = $birthDate->diff($today); 
 
-echo "Days passed since birthday: " . $diff->days . " days";
+    echo "You are alive for " . $aliveDay->days . " days.";
+}
 ?>
+
+</html>
