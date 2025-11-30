@@ -48,9 +48,11 @@
         <input type="submit" value="Submit" name="Submit" id="but">
 
     </form>
+  
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        echo `Registration Done!!`;
+        $name=$_POST['name'];
+        echo "  Registration Done!! $name";
     }
     ?>
 </body>
