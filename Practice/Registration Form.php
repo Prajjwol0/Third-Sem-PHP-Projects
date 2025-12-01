@@ -65,7 +65,13 @@
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $name=$_POST['name'];
-        echo "  Registration Done!! $name";
+        $email=$_POST['email'];
+        $gender=$_POST['gender'];
+        $dob=$_POST['dob'];
+        echo "  Registration Done!! <br>";
+        echo " $email<br>";
+        echo " $gender<br>";
+        echo " $dob<br>";
     }
     ?>
 </body>
