@@ -68,6 +68,9 @@
         $email=$_POST['email'];
         $gender=$_POST['gender'];
         $dob=$_POST['dob'];
+
+        
+
         echo "  Registration Done!! <br>";
         echo " $email<br>";
         echo " $gender<br>";
