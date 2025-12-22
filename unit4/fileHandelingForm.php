@@ -39,8 +39,7 @@ if (isset($_POST['submit'])) {
             if (!is_dir('Uploads')) {
                 // 0777 allows full permissions (note: not recommended for production)
                 mkdir('Uploads', 0777, true);
-            }
-            
+            }   
 
             // Set destination path
             // basename() prevents directory traversal
