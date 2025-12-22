@@ -1,10 +1,10 @@
 <?php
 // Initialize variables to hold previous submissions
 
-// for the select menu (single choise)
+// for the select menu (single choice)
 $submitted_efficiency = $_POST['efficiency'] ?? '';
 
-// for the radio buttons (single choise)
+// for the radio buttons (single choice)
 $submitted_gender = $_POST['gender'] ?? '';
 
 // for the checkboxes (multiple choices), store as an array
