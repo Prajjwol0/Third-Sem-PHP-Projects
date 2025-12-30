@@ -10,16 +10,19 @@
 </head>
 
 <body>
+    <h3>What is your favourite programming language? </h3>
     <form action="" method="post">
+
         <input type="radio" name="language" value="PHP" id="php">
         <label for="php">PHP</label><br>
+
         <input type="radio" name="language" value="JavaScript" id="js">
         <label for="js">JavaScript</label><br>
+        
         <input type="radio" name="language" value="Python" id="python">
         <label for="python">Python</label><br><br>
 
         <input type="submit" value="Submit">
-    </form>
     </form>
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
