@@ -3,7 +3,7 @@
 session_start();
 
 //  Set session variables
-$_SESSION['username'] = "Alice";
+$_SESSION['username'] = "Prajjwol";
 $_SESSION['role'] = 'admin';
 
 echo "Session has been set. <br>";
