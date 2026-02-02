@@ -24,7 +24,7 @@ try {
         echo "<td>" . $row['name'] . "</td>";
         echo "<td>" . $row['email'] . "</td>";
         echo "<td>" . $row['course'] . "</td>";
-        echo "</tr>";
+        echo "</tr>";           
 
         $rowCount++;
     }

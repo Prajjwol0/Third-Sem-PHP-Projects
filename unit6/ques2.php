@@ -13,3 +13,4 @@ echo "Database Connected!!";
     echo "Connection failed: Check your db settings:, ".$e;
 }
 ?>
+ 

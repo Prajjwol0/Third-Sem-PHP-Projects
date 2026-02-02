@@ -1,5 +1,4 @@
-<!-- 1. Create a MySQL database named `student_portal`. Inside it, create a table `students` with the following columns: `id` (INT, Primary Key, Auto Increment), `name`
-(VARCHAR), `email` (VARCHAR), and `course` (VARCHAR). -->
+<!-- 1. Create a MySQL database named `student_portal`. Inside it, create a table `students` with the following columns: `id` (INT, Primary Key, Auto Increment), `name` (VARCHAR), `email` (VARCHAR), and `course` (VARCHAR). -->
 
 <?php
 // Connect to MySQL
