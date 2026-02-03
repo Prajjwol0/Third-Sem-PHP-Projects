@@ -18,4 +18,5 @@ $user->email = "john@example.com";
 // Echo the property values
 echo "Name: " . $user->name . "<br>";
 echo "Email: " . $user->email;
+
 ?>
